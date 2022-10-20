@@ -1,0 +1,36 @@
+body {
+    margin: 0%;
+    background-color: beige;
+}
+
+.conteiner {
+    display: flex;
+    padding: 10px 30px;
+}
+
+.conteiner-biografia {
+    font-family: Helvetica, sans-serif;
+    border: 1px solid #F1BA0A;
+    border-radius: 3px;
+    padding: 10px;
+}
+
+.conteiner-biografia h1 {
+    font-size: 30px;
+    color: #A70B0B;
+}
+
+.conteiner-biografia h2 {
+    font-size: 20px;
+    color: #850A0A;
+}
+
+.conteiner-biografia p {
+    font-size: 14px;
+    color: #372B2B;
+}
+
+.conteiner-img {
+    width: 600px;
+    padding: 10px;
+}
