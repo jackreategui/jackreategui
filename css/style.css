@@ -11,7 +11,11 @@ body {
 .conteiner-biografia {
     font-family: Helvetica, sans-serif;
     border: 1px solid #F1BA0A;
-    border-radius: 3px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
     padding: 10px;
 }
 
