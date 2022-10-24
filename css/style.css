@@ -130,3 +130,43 @@ body {
     color: var(--texto-claro);
     font-size: var(--sm);
 }
+
+.conteier-experiencia {
+    background-color: var(--white);
+}
+
+.conteiner-experiecia-text {
+    text-align: center;
+    padding-top: 80px;
+}
+
+.conteiner-experiecia-text h1 {
+    color: var(--azul-oscuro);
+    font-size: var(--lg);
+}
+
+.conteiner-experiecia-text p {
+    color: var(--texto-claro);
+    font-size: var(--md);
+    padding: 0 250px;
+    padding-bottom: 30px;
+}
+
+.conteiner-experiecia-text button {
+    width: 150px;
+    height: 34px;
+    color: var(--white);
+    background-color: var(--green);
+    font-size: var(--sm);
+    border-radius: 40px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    -o-border-radius: 40px;
+    text-decoration: none;
+    border: none;
+}
+
+.conteiner-experiecia-text button:hover {
+    background-color: var(--azul-oscuro);
+}
