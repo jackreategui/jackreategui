@@ -7,12 +7,13 @@
         --fondo: #eef2f8;
         --sm: 14px;
         --md: 16px;
-        --lg: 22px;
+        --lg: 26px;
     }
 
 body {
     margin: 0%;
     font-family: 'Quicksand', sans-serif;
+    background-color: var(--fondo);
 }
 
 .barra {
@@ -20,6 +21,7 @@ body {
     width: 22px 0;
     align-items: center;
     align-items: center;
+    background-color: var(--white);
 }
 
 .barra-header {
@@ -91,10 +93,18 @@ body {
 }
 
 .conteiner2 {
-    align-content: stretch;
+    background-color: var(--fondo);
 }
 
 .conteiner2 h1 {
     font-size: var(--lg);
     color: var(--azul-oscuro);
+    text-align: center;
+}
+
+.conteiner2 p {
+    font-size: var(--md);
+    color: var(--texto-claro);
+    text-align: center;
+    padding: 0 300px;
 }
