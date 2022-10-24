@@ -1,7 +1,26 @@
+:root {
+        --white: #FFFFFF;
+        --black: #000000;
+        --azul-oscuro: #22223B;
+        --texto-claro: #F2E9E4;
+        --green: #2a9d8f;
+        --sm: 14px;
+        --md: 16px;
+        --lg: 18px;
+    }
+
 body {
     margin: 0%;
-    background-color: beige;
+    font-family: 'Quicksand', sans-serif;
 }
+
+.barra {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 0 32px;
+}
+
 
 .conteiner {
     display: flex;
@@ -9,7 +28,6 @@ body {
 }
 
 .conteiner-biografia {
-    font-family: Helvetica, sans-serif;
     border: 1px solid #F1BA0A;
     border-radius: 5px;
     -webkit-border-radius: 5px;
