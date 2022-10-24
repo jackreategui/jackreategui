@@ -108,3 +108,25 @@ body {
     text-align: center;
     padding: 0 300px;
 }
+
+.conteiner-abilidades {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 50px 150px;
+}
+
+.habilidades {
+    width: 250px;
+    text-align: center;
+}
+
+.habilidades h3 {
+    color: var(--azul-oscuro);
+    font-size: var(--md);
+}
+
+.habilidades p {
+    color: var(--texto-claro);
+    font-size: var(--sm);
+}
