@@ -2,7 +2,7 @@
         --white: #FFFFFF;
         --black: #000000;
         --azul-oscuro: #22223B;
-        --texto-claro: #aeaebb;
+        --texto-claro: #92929c;
         --green: #2a9d8f;
         --fondo: #eef2f8;
         --sm: 14px;
@@ -169,4 +169,38 @@ body {
 
 .conteiner-experiecia-text button:hover {
     background-color: var(--azul-oscuro);
+}
+
+.conteiner-experiencia-img {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 2fr 2fr;
+    justify-items: center;
+    padding: 60px 70px 40px;
+}
+
+.experiencia {
+    width: 380px;
+    text-align: center;
+}
+
+.experiencia h4 {
+    color: var(--azul-oscuro);
+    font-size: var(--md);
+}
+
+.experiencia p {
+    color: var(--texto-claro);
+    font-size: var(--sm);
+    padding-bottom: 60px;
+}
+
+.experiencia img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
 }
