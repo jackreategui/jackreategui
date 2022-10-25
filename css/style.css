@@ -27,11 +27,12 @@ body {
 .header {
     display: flex;
     max-width: 100%;
+    height: 50px;
     align-items: center;
     align-items: center;
     justify-content: space-between;
     background-color: var(--white);
-    padding: 10px 14px;
+    padding: 0 22px;
 }
 
 
@@ -55,66 +56,76 @@ body {
 }
 
 .conteiner {
-    max-width: 1400px;
+    max-width: 1200px;
     margin: auto;
     padding: 20px 22px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .conteiner-biografia {
-    /* padding: 30px 150px; */
-    background-color: var(--white);
-    display: flex;
     background-color: var(--fondo);
     display: flex;
     justify-content: space-between;
 }
 
-/* .conteiner-biografia-texto {
-    padding-right: 200px;
-} */
 
-
-.conteiner-biografia h1 {
+.biografia h1 {
     font-size: var(--lg);
     color: var(--azul-oscuro);
 }
 
 
-.conteiner-biografia p {
+.biografia p {
     font-size: var(--md);
     color: var(--texto-claro);
 }
 
-.conteiner-img {
-    width: 100px;
-    border-radius: 20px;
-    -webkit-border-radius: 20px;
-    -moz-border-radius: 20px;
-    -ms-border-radius: 20px;
-    -o-border-radius: 20px;
+.foto {
+    width: 30vw;
+    height: 320px;
+    max-width: 1000px;
+    min-width: 320px;
+    margin: auto;
 }
 
-.conteiner2 {
+.foto img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    box-shadow: 0 3px 5px rgba(15, 15, 15);
+}
+
+.mis-habilidades {
     background-color: var(--fondo);
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 40px;
 }
 
-.conteiner2 h1 {
+.mis-habilidades h1 {
     font-size: var(--lg);
     color: var(--azul-oscuro);
     text-align: center;
+    padding-top: 60px;
 }
 
-.conteiner2 p {
+.mis-habilidades p {
     font-size: var(--md);
     color: var(--texto-claro);
     text-align: center;
     /* padding: 0 300px; */
 }
 
-.conteiner-abilidades {
+.conteiner-habilidades {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     padding: 50px 150px;
 }
 
@@ -126,6 +137,7 @@ body {
 .habilidades h3 {
     color: var(--azul-oscuro);
     font-size: var(--md);
+    padding-top: 30px;
 }
 
 .habilidades p {
@@ -140,6 +152,10 @@ body {
 .conteiner-experiecia-text {
     text-align: center;
     padding-top: 80px;
+    max-width: 1200px;
+    margin: auto;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .conteiner-experiecia-text h1 {
@@ -150,8 +166,7 @@ body {
 .conteiner-experiecia-text p {
     color: var(--texto-claro);
     font-size: var(--md);
-    /* padding: 0 250px; */
-    padding-bottom: 30px;
+    padding: 0 20px 30px;
 }
 
 .conteiner-experiecia-text button {
@@ -178,7 +193,9 @@ body {
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 2fr 2fr;
     justify-items: center;
-    /* padding: 60px 70px 40px; */
+    max-width: 1200px;
+    margin: auto;
+    padding: 60px 10px;
 }
 
 .experiencia {
@@ -198,7 +215,7 @@ body {
 }
 
 .experiencia img {
-    width: 100%;
+    width: 96%;
     height: auto;
     border-radius: 10px;
     -webkit-border-radius: 10px;
@@ -248,8 +265,29 @@ body {
 
 
 
-/* @media (max-width: 1200px) {
-    .conteiner1 {
-        width: 100%;
+@media (max-width: 720px) {
+    .conteiner-biografia {
+        display: flex;
+        flex-direction: column;
     }
-} */
+    .biografia {
+        text-align: center;
+    }
+
+    .biografia h1 {
+        padding-top: 20px;
+    }
+
+    .biografia p {
+        padding: 40px 0;
+    }
+
+    .conteiner-habilidades {
+        display: flex;
+        flex-direction: column;
+    }
+    .conteiner-experiencia-img {
+        display: flex;
+        flex-direction: column;
+    }
+}
