@@ -23,32 +23,22 @@ body {
     background-color: var(--fondo);
 }
 
-.conteiner1 {
-    max-width: 1400px;
-    margin: auto;
-}
 
-.barra {
+.header {
     display: flex;
-    width: 100%;
+    max-width: 100%;
     align-items: center;
     align-items: center;
-    background-color: var(--white);
-}
-
-.barra-header {
-    display: flex;
-    width: 100%;
     justify-content: space-between;
-    padding: 0 40px;
-    align-items: center;
-    
+    background-color: var(--white);
+    padding: 10px 14px;
 }
+
 
 .email {
     font-size: var(--sm);
     background-color: antiquewhite;
-    padding: 6px 12px;
+    padding: 3px 8px;
     display: inline-block;
     justify-content: center;
     text-decoration: none;
@@ -64,11 +54,10 @@ body {
     background-color: var(--texto-claro);
 }
 
-
 .conteiner {
-    display: flex;
-    padding: 10px 30px;
-    background-color: var(--fondo);
+    max-width: 1400px;
+    margin: auto;
+    padding: 20px 22px;
 }
 
 .conteiner-biografia {
@@ -193,7 +182,7 @@ body {
 }
 
 .experiencia {
-    width: 380px;
+    max-width: 100%;
     text-align: center;
 }
 
