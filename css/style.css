@@ -10,8 +10,8 @@
         --lg: 26px;
     }
 
-html, body {
-    min-height: 100%;
+* {
+    box-sizing: border-box;
 }
 
 body {
@@ -248,8 +248,13 @@ body {
     width: 24px;
 }
 
-@media (max-width: 900px) {
-    .barra {
+.conteiner1 {
+    max-width: 1400px;
+    margin: auto;
+}
+
+/* @media (max-width: 1200px) {
+    .conteiner1 {
         width: 100%;
     }
-}
+} */
