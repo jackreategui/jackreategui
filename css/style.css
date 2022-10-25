@@ -12,12 +12,20 @@
 
 * {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
+
 body {
-    margin: 0%;
+    margin: 0;
     font-family: 'Quicksand', sans-serif;
     background-color: var(--fondo);
+}
+
+.conteiner1 {
+    max-width: 1400px;
+    margin: auto;
 }
 
 .barra {
@@ -34,6 +42,7 @@ body {
     justify-content: space-between;
     padding: 0 40px;
     align-items: center;
+    
 }
 
 .email {
@@ -63,7 +72,7 @@ body {
 }
 
 .conteiner-biografia {
-    padding: 30px 150px;
+    /* padding: 30px 150px; */
     background-color: var(--white);
     display: flex;
     background-color: var(--fondo);
@@ -71,9 +80,9 @@ body {
     justify-content: space-between;
 }
 
-.conteiner-biografia-texto {
+/* .conteiner-biografia-texto {
     padding-right: 200px;
-}
+} */
 
 
 .conteiner-biografia h1 {
@@ -88,7 +97,7 @@ body {
 }
 
 .conteiner-img {
-    width: 400px;
+    width: 100px;
     border-radius: 20px;
     -webkit-border-radius: 20px;
     -moz-border-radius: 20px;
@@ -110,7 +119,7 @@ body {
     font-size: var(--md);
     color: var(--texto-claro);
     text-align: center;
-    padding: 0 300px;
+    /* padding: 0 300px; */
 }
 
 .conteiner-abilidades {
@@ -152,7 +161,7 @@ body {
 .conteiner-experiecia-text p {
     color: var(--texto-claro);
     font-size: var(--md);
-    padding: 0 250px;
+    /* padding: 0 250px; */
     padding-bottom: 30px;
 }
 
@@ -180,7 +189,7 @@ body {
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 2fr 2fr;
     justify-items: center;
-    padding: 60px 70px 40px;
+    /* padding: 60px 70px 40px; */
 }
 
 .experiencia {
@@ -248,10 +257,7 @@ body {
     width: 24px;
 }
 
-.conteiner1 {
-    max-width: 1400px;
-    margin: auto;
-}
+
 
 /* @media (max-width: 1200px) {
     .conteiner1 {
