@@ -204,3 +204,8 @@ body {
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
 }
+
+.conteiner-contac {
+    text-align: center;
+    background-color: var(--fondo);
+}
