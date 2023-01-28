@@ -6,105 +6,119 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
     <title>Jack Reátegui</title>
 </head>
 <body>
-    <header class="header">
-        <p>Bienvenido a mi portafolio</p>
-        <a href="#" class="email">Email</a>
-    </header>
-    <div class="conteiner">
-        <section class="conteiner-biografia">
-            <div class="biografia">
-                <h1>Hola, soy Jack<br>FullStack Developer</h1>
-                <p>Soy un chico que espera aprender a programar a los 20 años, y conseguir el mejor trabajo del mundo, fucionando mis conocomientos en diseño grafico con la programacion</p>
+    <header class="header_container">
+        <nav class="nav container">
+            <a class="nav_logo" href="./index.html">Jack Reategui</a>
+            <div class="nav_hamburger"></div>
+    
+            <div class="nav_overlay">
+                <ul class="nav_menu">
+                    <li class="nav_item">
+                        <a class="nav_link" href="./index.html">Inicio</a>
+                        <a class="nav_link" href="./proyectos.html">Proyectos</a>
+                        <a class="nav_link" href="./servicios.html">Servicios</a>
+                        <a class="nav_link" href="./contacto.html">Contacto</a>
+                    </li>
+                </ul>
             </div>
-            
-            <div class="foto">
-                <img src="https://images.unsplash.com/photo-1570158268183-d296b2892211?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fHBvcnRyYWl0fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=700&q=60" alt="foto">
+        </nav>
+    </header>
+
+    <main class="main_container">
+        <section class="sobre_mi_container">
+            <picture>
+                <img src="" alt="">
+            </picture>
+            <div class="habilidades">
+                <article class="sobre_mi">
+                    <h3 class="sobre_mi_h3">Sobre Mí</h3>
+                    <p class="sobre_mi_p">Hola mi nombre es Jack soy Diseñador Grafico, Artista digital y pronto Programador web especializado en Frontend. Me encanta lo visual y artístico, desde el 2016 no he parado de aprender de forma autodidacta, cree proyectos personales por varios años hasta que me di cuenta que con mis conocimientos puedo empezar a trabajar de forma freelance, ahi es donde empezó todo la aventura de los negocios digitales y el llevar a la vida mis proyectos con programación.</p>
+                </article>
+                <div class="habilidades">
+                    <h3 class="habilidades_h3">Habilidades</h3>
+                    <div class="habilidades_icon">
+                        <a href="https://www.adobe.com/products/photoshop.html" target="_blank">
+                            <img src="./assets/icon/photoshop_icon.svg" alt="">
+                        </a>
+
+                        <a href="https://www.adobe.com/products/illustrator.html" target="_blank">
+                            <img src="./assets/icon/illustration_icon.svg" alt="">
+                        </a>
+
+                        <a href="https://www.adobe.com/products/premiere.html" target="_blank">
+                            <img src="./assets/icon/premiere_icon.svg" alt="">
+                        </a>
+
+                        <a href="https://www.figma.com/" target="_blank">
+                            <img src="./assets/icon/figma_icon.svg" alt="">
+                        </a>
+
+                        <a href="https://developer.mozilla.org/es/docs/Web/HTML" target="_blank">
+                            <img src="/assets/icon/html_icon.svg" alt="">
+                        </a>
+
+                        <a href="https://developer.mozilla.org/es/docs/Web/CSS" target="_blank">
+                            <img src="./assets/icon/css_icon.svg" alt="">
+                        </a>
+
+                        <a href="https://www.javascript.com/" target="_blank">
+                            <img src="./assets/icon/js_icon.svg" alt="">
+                        </a>
+                    </div>
+                </div>
             </div>
         </section>
-    </div>
-    <div class="mis-habilidades">
-        <h1>Mis habilidades</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus sit, ad dolore temporibus praesentium minima nulla incidunt ipsam vel numquam sunt eos perspiciatis. Repellendus tenetur odit iure recusandae, sequi dolorem?</p>
-    </div>
-    <div class="conteiner-habilidades">
-        <div class="habilidades">
-            <h3>HTML</h3>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis et molestiae in recusandae. Iure, accusamus. Quia quidem, quam ipsum, modi sit cupiditate natus perferendis voluptatem odit iste maiores iusto molestias.</p>
-        </div>
 
-        <div class="habilidades">
-            <h3>CSS</h3>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consectetur, optio. Consequatur quidem vero non modi ratione aperiam eius, blanditiis repellendus ducimus itaque rerum veritatis unde illo earum! Deleniti, qui non.</p>
-        </div>
-
-        <div class="habilidades">
-            <h3>JavaScript</h3>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae veritatis animi neque, exercitationem facilis aliquam, eum iure, maiores ex odio illum vel? Officiis architecto omnis quibusdam eos ad ex autem?</p>
-        </div>
-    </div>
-    <div class="conteier-experiencia">
-        <div class="conteiner-experiecia-text">
-            <h1>Mi experiencia</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit ducimus vitae dolore maxime laudantium magnam voluptatibus doloribus, fuga commodi itaque deserunt velit. Tenetur inventore nulla iusto. Sed earum cum non.</p>
-            <button>Github y Contacto</button>
-        </div>
-        <div class="conteiner-experiencia-img">
-
-            <div class="experiencia">
-                <img src="https://images.unsplash.com/photo-1661961112835-ca6f5811d2af?ixlib=rb-4.0.3&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=872&q=80" alt="experiencia1">
-                <h4>Trabao #1</h4>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi aperiam minus nemo doloremque necessitatibus unde, vitae accusamus hic qui aut quisquam fuga incidunt? Minima qui neque nisi enim saepe expedita.</p>
+        <section class="proyectos_container">
+            <h2 class="proyectos_h2">Proyectos</h2>
+            <div class="card_container">
+                <div class="card proyect">
+                    <a href="" class="card_img"></a>
+                    <a href=" class="card_title"">To-do-list</a>
+                </div>
+                <div class="card proyect">
+                    <a href="" class="card_img"></a>
+                    <a href="" class="card_title">Calculadora</a>
+                </div>
+                <div class="card proyect">
+                    <a href="" class="card_img"></a>
+                    <a href="" class="card_title">Social media post</a>
+                </div>
             </div>
+            <a href="./proyectos.html" class="ver_mas_link">Ver más</a>
+        </section>
 
-            <div class="experiencia">
-                <img src="https://images.unsplash.com/photo-1661961112951-f2bfd1f253ce?ixlib=rb-4.0.3&ixid=MnwxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwxfHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60" alt="experiencia2">
-                <h4>Trabao #2</h4>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi aperiam minus nemo doloremque necessitatibus unde, vitae accusamus hic qui aut quisquam fuga incidunt? Minima qui neque nisi enim saepe expedita.</p>
+        <section class="servicios_container">
+            <h2 class="servicios_h2">Servicios</h2>
+            <div class="card_container">
+                <div class="card servicios">
+                    <a href="" class="card_img"></a>
+                    <a href="" class="card_title">Landing page estática</a>
+                </div>
+                <div class="card servicios">
+                    <a href="" class="card_img"></a>
+                    <a href="" class="card_title">Pack social media</a>
+                </div>
+                <div class="card servicios">
+                    <a href="" class="card_img"></a>
+                    <a href="" class="card_title">Low poly art</a>
+                </div>
             </div>
+            <a href="./servicios.html" class="ver_mas_link">Ver más</a>
+        </section>
+        <section class="contacto_container">
 
-            <div class="experiencia">
-                <img src="https://images.unsplash.com/photo-1661961111247-e218f67d1cd2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwxMXx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60" alt="experiencia3">
-                <h4>Trabao #3</h4>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi aperiam minus nemo doloremque necessitatibus unde, vitae accusamus hic qui aut quisquam fuga incidunt? Minima qui neque nisi enim saepe expedita.</p>
-            </div>
+        </section>
+    </main>
+    
+    <footer class="footer_container">
 
-            <div class="experiencia">
-                <img src="https://images.unsplash.com/photo-1665686308827-eb62e4f6604d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwxNnx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60" alt="experiencia4">
-                <h4>Trabao #4</h4>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi aperiam minus nemo doloremque necessitatibus unde, vitae accusamus hic qui aut quisquam fuga incidunt? Minima qui neque nisi enim saepe expedita.</p>
-
-            </div>
-
-            <div class="experiencia">
-                <img src="https://images.unsplash.com/photo-1661961110144-12ac85918e40?ixlib=rb-4.0.3&ixid=MnwxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwzNnx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60" alt="experiencia5">
-                <h4>Trabao #5</h4>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi aperiam minus nemo doloremque necessitatibus unde, vitae accusamus hic qui aut quisquam fuga incidunt? Minima qui neque nisi enim saepe expedita.</p>
-
-            </div>
-
-            <div class="experiencia">
-                <img src="https://images.unsplash.com/photo-1665686304312-16e3a16be0ed?ixlib=rb-4.0.3&ixid=MnwxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHw0Nnx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60" alt="experiencia6">
-                <h4>Trabao #6</h4>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi aperiam minus nemo doloremque necessitatibus unde, vitae accusamus hic qui aut quisquam fuga incidunt? Minima qui neque nisi enim saepe expedita.</p>
-
-            </div>
-        </div>
-    </div>
-    <div class="conteiner-contac">
-        <h1>Si necesitas más informacion:</h1>
-        <h2>jackreategui2016@gmail.com</h2>
-        <div class="iconos">
-            <img src="https://seeklogo.com/images/I/instagram-new-2016-glyph-logo-84CB825424-seeklogo.com.png" alt="instagram">
-
-            <img src="https://www.pngmart.com/files/21/Linkedin-In-Logo-PNG-HD.png" alt="linkedin">
-            
-            <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="github">
-        </div>
-    </div>
+    </footer>
+    <script src="./js/index.js"></script>
 </body>
 </html>
