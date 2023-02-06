@@ -161,11 +161,12 @@ background-color: var(--black);
 
 .habilidades{
     width: 100%;
-    max-width: 500px;
+    max-width: 400px;
     height: 100%;
 }
 
 .sobre_mi{
+    
     color: var(--white);
     padding: 0 16px;
 }
@@ -280,9 +281,9 @@ background-color: var(--black);
 .card_img img{
     width: 100%;
     min-width: 300px;
+    min-height: 169px;
     max-width: 320px;
-    min-height: 200px;
-    max-height: 213px;
+    max-height: 180px;
     object-fit: cover;
 }
 
@@ -377,7 +378,9 @@ input[type=number] { -moz-appearance:textfield; }
 }
 
 .container_button a{
-    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 100%;
     height: 100%;
     text-align: center;
@@ -418,9 +421,124 @@ input[type=number] { -moz-appearance:textfield; }
     margin: 0 auto;
 }
 
-.social_media_icon .icon{
+.social_media_icon .icon img{
     width: 20px;
     height: 20px;
     cursor: pointer;
 }
 
+@media (min-width: 768px) {
+    .nav{
+        overflow: visible;
+    }
+
+    .nav_hamburger{
+        display: none;
+    }
+
+    .nav_overlay{
+        position: unset;
+        background-color: transparent;
+        opacity: 1;
+        pointer-events: unset;
+    }
+
+    .nav_menu{
+        position: unset;
+        width: 100%;
+        max-width: unset;
+        background-color: unset;
+        padding: 0;
+        overflow: unset;
+
+        display: flex;
+        align-items: center;
+        gap: 1em;
+    }
+
+    .nav_item{
+        display: flex;
+        flex-direction: row;
+        gap: 1em;
+        width: auto;
+        margin: 0;
+        padding-right: 16px;
+    }
+
+    .nav_link{
+        font-size: var(--p);
+        font-weight: 300;
+        margin: unset;
+    }
+
+    .sobre_mi_container{
+        width: 100%;
+        margin: 0 auto 50px;
+        display: flex;
+        flex-direction: row;
+        align-items: unset;
+        justify-content: space-evenly;
+    }
+
+    .habilidades{
+        padding: 32px 0;
+    }
+
+    .sobre_mi{
+        width: 400px;
+        min-width: 300px;
+        margin: 0 auto;
+    }
+
+    .habilidades_icons a img{
+        width: 40px;
+    }
+
+    .card_container{
+        display: grid;
+        gap: 1.75em;
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+        margin: 0 auto;
+        /* flex-direction: row; */
+        /* flex-wrap: unset; */
+        /* align-items: unset; */
+        min-height: auto;
+        height: auto;
+        justify-items: center;
+        max-width: 900px;
+    }
+
+    footer{
+        background-color: var(--back_2);
+        width: 100%;
+
+    }
+
+    .footer_container{
+        width: 100%;
+        max-width: 1440px;
+        margin: 0 auto;
+        height: 50px;
+        padding: 0px 16px;
+        display: flex;
+        flex-direction: row;
+        gap: 0;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .social_media_icon{
+        display: flex;
+        /* justify-content: space-evenly; */
+        /* width: 60%; */
+        max-width: 150px;
+        gap: 8px;
+        margin: unset;
+    }
+
+    .social_media_icon .icon img{
+        width: 20px;
+        height: 20px;
+        cursor: pointer;
+    }
+}
