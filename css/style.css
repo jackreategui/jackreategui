@@ -140,6 +140,7 @@ background-color: var(--black);
     margin: 0 auto 50px;
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 .picture_sobre_mi{
@@ -243,16 +244,15 @@ background-color: var(--black);
     flex-direction: column;
     align-items: center;
     width: 100%;
-    max-width: 448px;
-    min-width: 328px;
+    max-width: 320px;
+    min-width: 300px;
     height: 100%;
-    min-height: 190px;
-    max-height: 260px;
+    /* min-height: 250px; */
     padding: 16px 0;
     gap: 16px;
 }
 
-.card a{
+.card_title{
     color: var(--white);
     font-size: var(--p);
     font-weight: 500;
@@ -271,77 +271,27 @@ background-color: var(--black);
     text-decoration: underline;
 }
 
-.card_img--to-do-list{
-    width: 100%;
-    min-width: 328px;
-    min-height: 190px;
-    background-color: var(--back_2);
-    /* background-image: url('../assets/img/cover_facebook_proyecto.jpg'); */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+/* Imagenes de las tarjetas */
+
+.card_img{
+    background-color: red;
 }
 
-.card_img--calculadora{
+.card_img img{
     width: 100%;
-    min-width: 328px;
-    min-height: 190px;
-    background-color: var(--back_2);
-    /* background-image: url('../assets/img/cover_facebook_proyecto.jpg'); */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.card_img--social-media-post{
-    width: 100%;
-    min-width: 328px;
-    min-height: 190px;
-    background-color: var(--back_2);
-    /* background-image: url('../assets/img/cover_facebook_proyecto.jpg'); */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.card_img--landing-page-estatica{
-    width: 100%;
-    min-width: 328px;
-    min-height: 190px;
-    background-color: var(--back_2);
-    /* background-image: url('../assets/img/cover_facebook_proyecto.jpg'); */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.card_img--pack-social-media-post{
-    width: 100%;
-    min-width: 328px;
-    min-height: 190px;
-    background-color: var(--back_2);
-    /* background-image: url('../assets/img/cover_facebook_proyecto.jpg'); */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.card_img--low-poly-art{
-    width: 100%;
-    min-width: 328px;
-    min-height: 190px;
-    background-color: var(--back_2);
-    /* background-image: url('../assets/img/cover_facebook_proyecto.jpg'); */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    min-width: 300px;
+    max-width: 320px;
+    min-height: 200px;
+    max-height: 213px;
+    object-fit: cover;
 }
 
 /* Contacto */
 
 .contacto_container{
     width: 90%;
-    margin: 50px auto;
+    max-width: 500px;
+    margin: 0 auto 50px;
     display: flex;
     flex-direction: column;
 }
@@ -373,8 +323,24 @@ background-color: var(--black);
     border-radius: 8px;
     border: none;
     padding: 8px;
-    margin: 16px 0;
+    margin: 0 0 16px;
+    outline: none;
+    font-size: var(--p);
+    color: var(--black);
+    font-weight: 300;
+}   
+
+.inputs_container input:focus{
+    outline: none;
 }
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none; 
+    margin: 0; 
+}
+
+input[type=number] { -moz-appearance:textfield; }
 
 .inputs_container textarea{
     background-color: var(--gris);
@@ -384,6 +350,19 @@ background-color: var(--black);
     padding: 8px;
     border: none;
     border-radius: 8px;
+    resize: none;
+    outline: none;
+    font-size: var(--p);
+    color: var(--black);
+    font-weight: 300;
+}
+
+.inputs_container textarea:focus{
+    outline: none;
+}
+
+.inputs_container textarea::-webkit-scrollbar{
+    width: 0;
 }
 
 .container_button{
@@ -435,6 +414,7 @@ background-color: var(--black);
     display: flex;
     justify-content: space-evenly;
     width: 60%;
+    max-width: 250px;
     margin: 0 auto;
 }
 
@@ -443,3 +423,4 @@ background-color: var(--black);
     height: 20px;
     cursor: pointer;
 }
+
