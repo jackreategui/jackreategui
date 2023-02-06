@@ -297,6 +297,15 @@ background-color: var(--black);
     flex-direction: column;
 }
 
+.container_img--contacto{
+    display: none;
+}
+
+.form_contacto_container{
+    display: flex;
+    flex-direction: column;
+}
+
 .contacto_h3{
     color: var(--white);
     font-size: var(--h3);
@@ -506,6 +515,39 @@ input[type=number] { -moz-appearance:textfield; }
         height: auto;
         justify-items: center;
         max-width: 900px;
+    }
+
+    .contacto_container{
+        width: 100%;
+        max-width: unset;
+        margin: 0 auto 50px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1em;
+    }
+
+    .form_contacto_container{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
+    .container_button{
+        margin: 0;
+    }
+
+    .container_img--contacto{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 80%;
+        padding: 16px;
+        margin: auto 0;
+        background-image: url('../assets/img/fondo_contacto.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
     }
 
     footer{
