@@ -21,8 +21,8 @@
                     <li class="nav_item">
                         <a class="nav_link" href="./index.html">Inicio</a>
                         <a class="nav_link" href="./proyectos.html">Proyectos</a>
-                        <a class="nav_link" href="./servicios.html">Servicios</a>
-                        <a class="nav_link" href="./contacto.html">Contacto</a>
+                        <a class="nav_link" href="#servicios">Servicios</a>
+                        <a class="nav_link" href="mailto:jackreatteguivargas@gmail.com?subject=Contactar para trabajo&body=Hola, estoy interesado en tu trabajo y quiera mas informacion para trabajar contigo.">Contactar</a>
                     </li>
                 </ul>
             </div>
@@ -38,8 +38,12 @@
                 <article class="sobre_mi">
                     <h3 class="sobre_mi_h3">Sobre Mí</h3>
                     <p class="sobre_mi_p">Hola mi nombre es Jack soy Diseñador Grafico, Artista digital y pronto Programador web especializado en Frontend. Me encanta lo visual y artístico, desde el 2016 no he parado de aprender de forma autodidacta, cree proyectos personales por varios años hasta que me di cuenta que con mis conocimientos puedo empezar a trabajar de forma freelance, ahi es donde empezó todo la aventura de los negocios digitales y el llevar a la vida mis proyectos con programación.</p>
+
+                    <button class="container_button">
+                        <a class="button_contacto" href="mailto:jackreatteguivargas@gmail.com?subject=Contactar para trabajo&body=Hola, estoy interesado en tu trabajo y quiera mas informacion para trabajar contigo.">Contactar</a>
+                    </button>
                 </article>
-                <div class="habilidades_container">
+                <!-- <div class="habilidades_container">
                     <h3 class="habilidades_h3">Habilidades</h3>
                     <div class="habilidades_icons">
                         <a href="https://www.adobe.com/products/photoshop.html" target="_blank">
@@ -70,7 +74,39 @@
                             <img src="./assets/icon/js_icon.svg" alt="">
                         </a>
                     </div>
-                </div>
+                </div> -->
+            </div>
+        </section>
+
+        <h2 class="habilidades_h2">Habilidades</h2>
+        <section class="container_hablidades">
+            <div class="habilidad diseño_grafico">
+                <h3 class="habilidades_h3">Diseño gráfico</h3>
+                <ul>
+                    <li>Photoshop</li>
+                    <li>Illustrator</li>
+                    <li>Premiere</li>
+                    <li>Figma</li>
+                </ul>
+            </div>
+
+            <div class="habilidad desarrollo-web">
+                <h3 class="habilidades_h3">Desarrollo web</h3>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>Javascript</li>
+                    <li>Wordpress</li>
+                </ul>
+            </div>
+
+            <div class="habilidad marketing-digital">
+                <h3 class="habilidades_h3">Marketing Digital</h3>
+                <ul>
+                    <li>SEO</li>
+                    <li>Facebook ads</li>
+                    <li>Google ads</li>
+                </ul>
             </div>
         </section>
 
@@ -99,32 +135,31 @@
             <a href="./proyectos.html" class="ver_mas_link">Ver más</a>
         </section>
 
-        <section class="servicios_container">
+        <section id="servicios" class="servicios_container">
             <h2 class="servicios_h2">Servicios</h2>
             <div class="card_container">
                 <div class="card servicios">
                     <a href="" class="card_img">
                         <img src="" alt="">
                     </a>
-                    <a href="" class="card_title">Landing page estática</a>
+                    <a href="" class="card_title">Diseño gráfico</a>
                 </div>
                 <div class="card servicios">
                     <a href="" class="card_img">
                         <img src="" alt="">
                     </a>
-                    <a href="" class="card_title">Pack social media</a>
+                    <a href="" class="card_title">Desarrollo web</a>
                 </div>
                 <div class="card servicios">
                     <a href="" class="card_img">
                         <img src="" alt="">
                     </a>
-                    <a href="" class="card_title">Low poly art</a>
+                    <a href="" class="card_title">Marketing digital</a>
                 </div>
             </div>
-            <a href="./servicios.html" class="ver_mas_link">Ver más</a>
         </section>
-        <section class="contacto_container">
-            <picture class="container_img--contacto"></picture>
+        <!-- <section class="contacto_container"> -->
+            <!-- <picture class="container_img--contacto"></picture>
             <div class="form_contacto_container">
                 <h3 class="contacto_h3">Contacto</h3>
                 <form class="inputs_container" id="form">
@@ -132,7 +167,7 @@
                     <input type="text" name="name" id="name" required>
     
                     <label for="email">Email</label>
-                    <input type="email" name="email" id="email" required>
+                    <input type="email" name="email" id="email" required> -->
 <!--     
                     <label for="number">Número celular</label>
                     <input type="number" name="number" id="number" required> -->
@@ -140,13 +175,13 @@
                     <label for="text">Asunto</label>
                     <input type="text" name="text" id="text" required> -->
     
-                    <label for="text">Mensaje</label>
+                    <!-- <label for="text">Mensaje</label>
                     <textarea name="messege" id="messege" required></textarea>
                     
                     <button class="container_button" type="submit">Enviar</button>
                 </form>
             </div>
-        </section>
+        </section> -->
     </main>
     
     <footer>
@@ -171,6 +206,7 @@
             </div>
         </div>
     </footer>
+
     <script src="./js/menu.js"></script>
     <script src="./js/main.js"></script>
 </body>

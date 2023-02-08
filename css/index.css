@@ -63,6 +63,10 @@ background-color: var(--black);
     text-decoration: none;
 }
 
+.nav_logo:hover{
+    text-decoration: none !important;
+}
+
 .nav_hamburger{
     width: 30px;
     height: 30px;
@@ -159,16 +163,16 @@ background-color: var(--black);
     object-fit: cover;
 }
 
-.habilidades{
+/* .habilidades{
     width: 100%;
     max-width: 400px;
     height: 100%;
-}
+} */
 
 .sobre_mi{
     
     color: var(--white);
-    padding: 0 16px;
+    padding: 16px;
 }
 
 .sobre_mi_h3{
@@ -186,10 +190,26 @@ background-color: var(--black);
     padding: 0 0 32px;
 }
 
-.habilidades_container{
+/* .habilidades_container{
     width: 100%;
     max-width: 400px;
     margin: 0 auto;
+    color: var(--white);
+    text-align: center;
+} */
+
+.container_hablidades{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--back_2);
+    padding: 16px 0;
+}
+
+.habilidades_h2{
+    font-size: var(--h1);
+    font-weight: 700;
+    padding: 0 0 16px;
     color: var(--white);
     text-align: center;
 }
@@ -198,23 +218,42 @@ background-color: var(--black);
     font-size: var(--h3);
     font-weight: 600;
     padding: 0 0 16px;
+    color: var(--white);
 }
 
-.habilidades_icons{
+.habilidad{
+    color: var(--white);
+    font-size: var(--p);
+    font-weight: 500;
+    line-height: 22px;
+    padding: 16px 0;
+}
+
+.habilidad ul{
+    list-style: none;
+}
+
+.habilidad ul li{
+    font-size: var(--p);
+    font-weight: 300;
+    padding: 4px 0 4px 16px;
+}
+
+/* .habilidades_icons{
     width: 350px;
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
     margin: 0 auto;
     gap: 8px;
-}
+} */
 
-.habilidades_icons a img:hover{
+/* .habilidades_icons a img:hover{
     border-radius: 100%;
     -webkit-box-shadow: 0px 0px 30px -5px rgba(0,0,0,0.75);
     -moz-box-shadow: 0px 0px 30px -5px rgba(0,0,0,0.75);
     box-shadow: 0px 0px 30px -5px rgba(0,0,0,0.75);
-}
+} */
 
 .proyectos_container, .servicios_container{
     width: 100%;
@@ -226,7 +265,7 @@ background-color: var(--black);
 
 .proyectos_h2, .servicios_h2{
     color: var(--white);
-    font-size: var(--h2);
+    font-size: var(--h1);
     font-weight: 700;
     padding: 0 0 16px;
 }
@@ -391,6 +430,16 @@ input[type=number] { -moz-appearance:textfield; }
     font-weight: 500;
 }
 
+
+.button_contacto{
+    color: var(--white);
+    font-size: var(--p);
+}
+
+.button_contacto:hover{
+    text-decoration: none !important;
+}
+
 /* Footer */
 
 .footer_container{
@@ -476,11 +525,22 @@ input[type=number] { -moz-appearance:textfield; }
         flex-direction: row;
         align-items: unset;
         justify-content: space-evenly;
+        max-width: 900px;
     }
 
+    .container_hablidades{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: flex-start;
+        background-color: var(--back_2);
+        padding: 16px 0;
+        margin: 0 auto;
+    }
+/* 
     .habilidades{
         padding: 32px 0;
-    }
+    } */
 
     .sobre_mi{
         width: 400px;
@@ -488,9 +548,9 @@ input[type=number] { -moz-appearance:textfield; }
         margin: 0 auto;
     }
 
-    .habilidades_icons a img{
+    /* .habilidades_icons a img{
         width: 40px;
-    }
+    } */
 
     .card_container{
         display: grid;
