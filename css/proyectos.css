@@ -47,7 +47,7 @@ font-family: 'Inter', sans-serif;
 .gallery_item{
   position: relative;
   overflow: hidden;
-  max-width: 40%;
+  max-width: 400px;
   max-height: auto;
   min-width: 90%;
   min-height: auto;
@@ -67,9 +67,9 @@ font-family: 'Inter', sans-serif;
   transition: all 0.3s ease-in-out;
 }
 
-.gallery--img:hover{
+/* .gallery--img:hover {
   transform: scale(1.1);
-}
+} */
 
 .gallery--text{
   position: absolute;
@@ -78,7 +78,7 @@ font-family: 'Inter', sans-serif;
   left: 0;
   right: 0;
   background: #af1522ec;
-  color: #fff;
+  color: var(--white);
   visibility: hidden;
   opacity: 0;
   transition: all 0.3s ease-in-out;
@@ -112,7 +112,7 @@ font-family: 'Inter', sans-serif;
   .gallery_item{
     position: relative;
     overflow: hidden;
-    max-width: 40%;
+    max-width: 400px;
     max-height: auto;
     min-width: unset;
     min-height: auto;
@@ -120,7 +120,7 @@ font-family: 'Inter', sans-serif;
   
     /* width: 300px;
     height: 300px; */
-    margin: 0;
+    margin: 4px;
     gap: 0;
     padding: 0;
   }
