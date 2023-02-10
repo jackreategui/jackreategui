@@ -87,6 +87,7 @@ background-color: var(--black);
 .nav_overlay{
     position: fixed;
     inset: 0;
+    z-index: 90;
 
     opacity: 0;
     pointer-events: none;
@@ -96,6 +97,8 @@ background-color: var(--black);
 .nav_overlay--show{
     opacity: 1;
     pointer-events: unset;
+    background-color: rgba(0, 0, 0, 0.76);
+    transition: 0.3s opacity;
 }
 
 .nav_menu{
@@ -296,6 +299,7 @@ background-color: var(--black);
     color: var(--white);
     font-size: var(--p);
     font-weight: 500;
+    padding: 8px 0;
 }
 
 .ver_mas_link{
@@ -320,6 +324,8 @@ background-color: var(--black);
     min-height: 169px;
     max-width: 320px;
     max-height: 180px;
+    overflow: hidden;
+    object-fit: cover;
 }
 
 .card_img img{
@@ -329,7 +335,7 @@ background-color: var(--black);
     transition: 0.3s;
 }
 
-.card_img img:hover{
+.card_img, .card_img img:hover{
     transform: scale(1.1);
     transition: 0.3s;
 }

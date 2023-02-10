@@ -81,7 +81,7 @@ font-family: 'Inter', sans-serif;
   color: var(--white);
   visibility: hidden;
   opacity: 0;
-  transition: all 0.3s ease-in-out;
+  transition: all 0.5s ease-in-out;
   cursor: pointer;
   text-align: center;
 
