@@ -293,6 +293,7 @@ background-color: var(--black);
     /* min-height: 250px; */
     padding: 16px 0;
     gap: 16px;
+    overflow: hidden;
 }
 
 .card_title{
@@ -452,6 +453,10 @@ input[type=number] { -moz-appearance:textfield; }
 
 .button_contacto:hover{
     text-decoration: none !important;
+}
+
+.button_cv{
+    margin-left: 8px;
 }
 
 /* Footer */
