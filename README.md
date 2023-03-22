@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Jack Reátegui</h1>
-<h4 align="center">Hi, I'm a digital designer and soon to be full stack web developer. I'm passionate about visual and aesthetics, but that's not a limit to enter the BackEnd world. I'm currently a full time freelancer doing both design and web development projects, I'm self-studying with platforms like Platzi.</h4>
+<h3 align="center">Hi, I'm a digital designer and soon to be full stack web developer. I'm passionate about visual and aesthetics, but that's not a limit to enter the BackEnd world. I'm currently a full time freelancer doing both design and web development projects, I'm self-studying with platforms like Platzi.</h3>
 <h2>👨‍💻 About Me :</h2>
 
 
