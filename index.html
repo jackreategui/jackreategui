@@ -4,10 +4,6 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500;600;700&display=swap" rel="stylesheet">
-
     <!-- Este icono sera mi foto de perfil -->
     <link rel="icon" href="./assets/icon/logo_icon_pestana.ico"> 
     <link rel="stylesheet" href="./css/index.css">
@@ -22,8 +18,8 @@
             <div class="nav_overlay">
                 <ul class="nav_menu">
                     <li class="nav_item">
-                        <a class="nav_link" href="./index.html">Sobre mi</a>
-                        <a class="nav_link" href="./proyectos.html">Trabajos</a>
+                        <a class="nav_link" href="#">Sobre mi</a>
+                        <a class="nav_link" href="#">Trabajos</a>
                         <a class="nav_link" href="#">Contactar</a>
                     </li>
                 </ul>
@@ -34,14 +30,14 @@
     <main class="main_container">
         <section class="sobre_mi_container">
             <picture class="sobre_mi--foto">
-                <img src="#" alt="foto mia sobre mi">
+                <h1>Diseñador digital y<br>Desarrollador web</h1>
             </picture>
             <div class="sobre_mi_container--text">
                 <article class="sobre_mi">
                     <h2 class="sobre_mi_h2">Hola, soy <br>Jack Reátegui</h2>
                     <div class="edadPais">
-                        <p>21 años</p>
-                        <p>Perú</p>
+                        <p class="edad">21 años</p>
+                        <p class="pais">Perú</p>
                     </div>
                     <p class="sobre_mi_p">Hola soy Diseñador Grafico, Artista digital y pronto Programador web especializado en Frontend. Me encanta lo visual y artístico, desde el 2016 no he parado de aprender de forma autodidacta, cree proyectos personales por varios años hasta que me di cuenta que con mis conocimientos puedo empezar a trabajar de forma freelance, ahí es donde empezó toda la aventura de los negocios digitales y el llevar a la vida mis proyectos con programación.</p>
                 </article>
@@ -68,28 +64,28 @@
                 <article class="contacto">
                     <h3>Contacto:</h3>
                     <div class="correo--contacto contacto_info">
-                        <a class="icon_contacto" href="mailto:jackreatteguivargas@gmail.com?subject=Contactar para trabajo&body=Hola, estoy interesado en tu trabajo y quiera mas informacion para trabajar contigo."></a>
-                        <a href="mailto:jackreatteguivargas@gmail.com?subject=Contactar para trabajo&body=Hola, estoy interesado en tu trabajo y quiera mas informacion para trabajar contigo.">jackreatteguivargas@gmail.com</a>
+                        <a target="_blank" class="icon_contacto" href="https://forms.gle/fR7t5QXaExvfeKnx8"></a>
+                        <a target="_blank" href="https://forms.gle/fR7t5QXaExvfeKnx8">jackreatteguivargas@gmail.com</a>
                     </div>
                     <div class="instagram contacto_info">
-                        <a class="icon_contacto" href="#"></a>
-                        <a href="#">@jack.reategui</a>
+                        <a target="_blank" class="icon_contacto" href="https://www.instagram.com/jack.reategui"></a>
+                        <a target="_blank" href="https://www.instagram.com/jack.reategui">@jack.reategui</a>
                     </div>
                     <div class="twitter contacto_info">
-                        <a class="icon_contacto" href="#"></a>
-                        <a href="#">@jackreattegui</a>
+                        <a target="_blank" class="icon_contacto" href="https://twitter.com/jackreattegui"></a>
+                        <a target="_blank" href="https://twitter.com/jackreattegui">@jackreattegui</a>
                     </div>
                     <div class="tiktok contacto_info">
-                        <a class="icon_contacto" href="#"></a>
-                        <a href="#">@jack.reategui</a>
+                        <a target="_blank" class="icon_contacto" href="https://www.tiktok.com/@jack.reategui"></a>
+                        <a target="_blank" href="https://www.tiktok.com/@jack.reategui">@jack.reategui</a>
                     </div>
                     <div class="github contacto_info">
-                        <a class="icon_contacto" href="#"></a>
-                        <a href="#">github.com/jackreategui</a>
+                        <a target="_blank" class="icon_contacto" href="https://github.com/jackreategui"></a>
+                        <a target="_blank" href="https://github.com/jackreategui">github.com/jackreategui</a>
                     </div>
                     <div class="behance contacto_info">
-                        <a class="icon_contacto" href="#"></a>
-                        <a href="#">behance.net/jackreategui</a>
+                        <a target="_blank" class="icon_contacto" href="https://www.behance.net/jackreategui"></a>
+                        <a target="_blank" href="https://www.behance.net/jackreategui">behance.net/jackreategui</a>
                     </div>
                 </article>
                 <article class="idiomas">
@@ -102,108 +98,57 @@
             </div>
         </section>
 
-        <h2 class="habilidades_h2">Habilidades</h2>
-        <section class="container_hablidades">
-            <div class="habilidad diseño_grafico">
-                <h3 class="habilidades_h3">Diseño gráfico</h3>
-                <ul>
-                    <li>Photoshop</li>
-                    <li>Illustrator</li>
-                    <li>Premiere</li>
-                    <li>Figma</li>
-                </ul>
+        <section class="trabajos">
+            <div class="diseño_digital">
+                <h3>Diseño Digital</h3>
+                <div class="card diseño_digital_card">
+                    <a href="#" class="img_card"></a>
+                    <a href="#" class="titulo_card">Diseño de Social media</a>
+                </div>
+                <div class="card diseño_digital_card">
+                    <a href="#" class="img_card"></a>
+                    <a href="#" class="titulo_card">Diseño de logo</a>
+                </div>
+                <div class="card diseño_digital_card">
+                    <a href="#" class="img_card"></a>
+                    <a href="#" class="titulo_card">Diseño de logo y Social media</a>
+                </div>
+
+                <a class="boton_trabajos" href="#">Ver más</a>
             </div>
 
-            <div class="habilidad desarrollo-web">
-                <h3 class="habilidades_h3">Desarrollo web</h3>
-                <ul>
-                    <li>HTML</li>
-                    <li>CSS</li>
-                    <li>Javascript</li>
-                    <li>Wordpress</li>
-                </ul>
-            </div>
+            <div class="desarrollo_web">
+                <h3>Desarrollo web</h3>
+                <div class="card desarrollo_web_card">
+                    <a href="#" class="img_card"></a>
+                    <a href="#" class="titulo_card">Landing page</a>
+                </div>
+                <div class="card desarrollo_web_card">
+                    <a href="#" class="img_card"></a>
+                    <a href="#" class="titulo_card">To-do-list</a>
+                </div>
+                <div class="card desarrollo_web_card">
+                    <a href="#" class="img_card"></a>
+                    <a href="#" class="titulo_card">Calculadora</a>
+                </div>
 
-            <div class="habilidad marketing-digital">
-                <h3 class="habilidades_h3">Marketing Digital</h3>
-                <ul>
-                    <li>SEO</li>
-                    <li>Facebook ads</li>
-                    <li>Google ads</li>
-                </ul>
-            </div>
-        </section>
-
-        <section class="proyectos_container">
-            <h2 class="proyectos_h2">Proyectos</h2>
-            <div class="card_container">
-                <div class="card proyect">
-                    <a target="_blank" href="https://github.com/jackreategui/tasklift" class="card_img">
-                        <img src="./assets/img/to_do_list--tasklift.jpg" alt="">
-                    </a>
-                    <a target="_blank" href="https://github.com/jackreategui/tasklift" class="card_title">TaskLift To-do-list</a>
-                </div>
-                <div class="card proyect">
-                    <a target="_blank" href="https://github.com/jackreategui/calculadora" class="card_img">
-                        <img src="./assets/img/calculadora.jpg" alt="">
-                    </a>
-                    <a target="_blank" href="https://github.com/jackreategui/calculadora" class="card_title">Calculadora</a>
-                </div>
-                <div class="card proyect">
-                    <a target="_blank" href="https://www.behance.net/gallery/156040159/Advertising-social-media-post-v2" class="card_img">
-                        <img src="./assets/img/social_media_post_proyecto.jpg" alt="">
-                    </a>
-                    <a target="_blank" href="https://www.behance.net/gallery/156040159/Advertising-social-media-post-v2" class="card_title">Social media post</a>
-                </div>
-            </div>
-            <a href="./proyectos.html" class="ver_mas_link">Ver más</a>
-        </section>
-
-        <section id="servicios" class="servicios_container">
-            <h2 class="servicios_h2">Servicios</h2>
-            <div class="card_container">
-                <div class="card servicios">
-                    <a href="mailto:jackreatteguivargas@gmail.com?subject=Contactar para trabajo&body=Hola, estoy interesado en tu trabajo y quiera mas informacion para trabajar contigo." class="card_img">
-                        <img src="./assets/img/diseño_grafico_img.jpg" alt="">
-                    </a>
-                    <a href="mailto:jackreatteguivargas@gmail.com?subject=Contactar para trabajo&body=Hola, estoy interesado en tu trabajo y quiera mas informacion para trabajar contigo." class="card_title">Diseño gráfico</a>
-                </div>
-                <div class="card servicios">
-                    <a href="mailto:jackreatteguivargas@gmail.com?subject=Contactar para trabajo&body=Hola, estoy interesado en tu trabajo y quiera mas informacion para trabajar contigo." class="card_img">
-                        <img src="./assets/img/web_developer_img.jpg" alt="">
-                    </a>
-                    <a href="mailto:jackreatteguivargas@gmail.com?subject=Contactar para trabajo&body=Hola, estoy interesado en tu trabajo y quiera mas informacion para trabajar contigo." class="card_title">Desarrollo web</a>
-                </div>
-                <div class="card servicios">
-                    <a href="mailto:jackreatteguivargas@gmail.com?subject=Contactar para trabajo&body=Hola, estoy interesado en tu trabajo y quiera mas informacion para trabajar contigo." class="card_img">
-                        <img src="./assets/img/marketing_digital_img.jpg" alt="">
-                    </a>
-                    <a href="mailto:jackreatteguivargas@gmail.com?subject=Contactar para trabajo&body=Hola, estoy interesado en tu trabajo y quiera mas informacion para trabajar contigo." class="card_title">Marketing digital</a>
-                </div>
+                <a class="boton_trabajos" href="#">Ver más</a>
             </div>
         </section>
     </main>
     
     <footer>
         <div class="footer_container">
-            <p>By Jack Reátegui</p>
-            <div class="social_media_icon">
-                <a href="https://www.facebook.com/jack.reategui.design" target="_blank" class="icon">
-                    <img src="./assets/icon/facebook_icon.svg" alt="">
-                </a>
-                <a href="https://www.instagram.com/jack.reategui/" target="_blank" class="icon">
-                    <img src="./assets/icon/instagram_icon.svg" alt="">
-                </a>
-                <a href="https://twitter.com/jackreattegui" target="_blank" class="icon">
-                    <img src="./assets/icon/twitter_icon.svg" alt="">
-                </a>
-                <a href="https://github.com/jackreategui" target="_blank" class="icon">
-                    <img src="./assets/icon/github_icon.svg" alt="">
-                </a>
-                <a href="https://www.behance.net/jackreategui" target="_blank" class="icon">
-                    <img src="./assets/icon/behance_icon.svg" alt="">
-                </a>
-            </div>
+            <div class="img_footer"></div>
+            <h2>Contacta conmigo para trabajar juntos</h2>
+            <a href="icon_contacto" href="https://forms.gle/fR7t5QXaExvfeKnx8" class="contacto_boton" target="_blank">jackreatteguivargas@gmail.com</a>
+        </div>
+        <div class="container_links">
+            <a href="#" target="_blank">Instagram</a>
+            <a href="#" target="_blank">Behance</a>
+            <a href="#" target="_blank">GitHub</a>
+            <a href="#" target="_blank">Twitter</a>
+            <a href="#" target="_blank">LinkeIn</a>
         </div>
     </footer>
 
