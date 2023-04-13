@@ -55,6 +55,14 @@ p{
     line-height: 18px;
 }
 
+ul{
+    text-decoration: none;
+}
+
+li{
+    text-decoration: none;
+}
+
 body {
 background-color: var(--white);
 }
@@ -204,6 +212,7 @@ background-color: var(--white);
     display: flex;
     flex-direction: column;
     gap: 16px;
+    margin: 0 auto;
 }
 
 .sobre_mi{
@@ -211,4 +220,33 @@ background-color: var(--white);
     display: flex;
     flex-direction: column;
     gap: 16px;
+}
+
+.icon_programas{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    padding: 14px 0;
+}
+
+.icon_programas img{
+    width: 60px;
+    height: 60px;
+}
+
+.ul_habilidades{
+    margin: 0 0 0 8px;
+    padding: 14px;
+}
+
+.contacto{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.contacto h3{
+    font-size: 24px;
+    font-weight: 500;
+    padding: 0 0 12px 0;
 }
