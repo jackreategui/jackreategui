@@ -70,7 +70,6 @@ background-color: var(--white);
 .header_container{
     width: 100%;
     height: 60px;
-    max-width: 1440px;
     display: flex;
     background-color: transparent;
     position: absolute;
@@ -79,6 +78,7 @@ background-color: var(--white);
 
 .nav{
     width: 100%;
+    max-width: 1440px;
     height: 100%;
     padding: 0 16px;
     display: flex;
@@ -86,6 +86,7 @@ background-color: var(--white);
     align-items: center;
     background-color: transparent;
     position: relative;
+    margin: 0 auto;
 }
 
 .nav_logo{
@@ -99,6 +100,7 @@ background-color: var(--white);
 }
 
 .nav_hamburger{
+    /* display: none; */
     width: 23px;
     height: 15px;
     background-image: url('../assets/icon/menu_icon.svg');
@@ -139,7 +141,7 @@ background-color: var(--white);
     background-color: var(--black);
     width: 100%;
     height: 100vh;
-    transition: 0.5s;
+    transition: 0.5s ease-in;
 }
 
 .nav_overlay--show{
@@ -150,7 +152,7 @@ background-color: var(--white);
     bottom: 0;
     right: 0;
     background-color: var(--black);
-    width: 100%;
+    width: 100vw;
     height: 100vh;
     transition: 0.5s;
 }
@@ -185,13 +187,17 @@ background-color: var(--white);
 
 .hero--foto h1{
     position: relative;
-    top: 250px;
+    top: 450px;
+    left: 10px;
     font-size: 32px;
+
+    transition: 0.5s ease-in;
 }
 
 .main_container{
     width: 100%;
     max-width: 1440px;
+    margin: 0 auto;
 }
 
 .sobre_mi_container{
@@ -201,6 +207,8 @@ background-color: var(--white);
 }
 
 .img_sobre_mi{
+    display: none;
+
     width: 100%;
     height: 600px;
     background-color: var(--red_2);
@@ -217,6 +225,7 @@ background-color: var(--white);
 
 .sobre_mi{
     width: 100%;
+    max-width: 600px;
     display: flex;
     flex-direction: column;
     gap: 16px;
@@ -226,8 +235,9 @@ background-color: var(--white);
     display: flex;
     flex-wrap: wrap;
     gap: 8px;
-    padding: 14px 0;
     
+    padding: 14px 0;
+    max-width: 400px;
 }
 
 .icon_programas img{
@@ -278,23 +288,33 @@ background-color: var(--white);
 }
 
 .proyecto_container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
     width: 100%;
     height: auto;
 
-    text-align: center;
+    position: relative;
 }
 
 .cards_container{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    align-items: center;
 
     width: 100%;
     /* padding: 0 16px; */
 }
 
 .card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
     width: 100%;
+    min-width: 300px;
+    max-width: 400px;
     height: 300px;
 
     text-align: center;
@@ -303,7 +323,7 @@ background-color: var(--white);
 .img_card{
     display: inline-block;
     width: 100%;
-    min-height: 240px;
+    max-width: 400px;
     height: 240px;
 
     background-color: var(--blue);
@@ -435,4 +455,178 @@ background-color: var(--white);
     justify-content: center;
     
     margin-bottom: 32px;
+}
+
+@media (min-width: 768px) {
+    .hero--foto h1{
+        position: relative;
+        top: 450px;
+        left: 10%;
+        font-size: 32px;
+        max-width: 300px;
+    }
+
+    .sobre_mi_container--text{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 16px;
+
+        width: 100%;
+        padding: 32px 16px;
+        margin: 0 auto;
+    }
+
+    .cards_container{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-evenly;
+        gap: 16px;
+
+        width: 100%;
+        max-width: 1440px;
+        padding: 24px 16px 0;
+    }
+    
+    .card{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    
+        width: 100%;
+        min-width: 300px;
+        max-width: 400px;
+        /* height: 300px; */
+    
+        text-align: center;
+    }
+
+    footer{
+        margin-top: 32px;
+    }
+
+    .contacto_boton{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+        width: 320px;
+        height: 45px;
+    
+        background-color: var(--gris);
+        border-radius: 8px;
+    }
+}
+
+@media (min-width: 1000px) {
+    .nav_hamburger{
+        display: none;
+    }
+
+    .nav_overlay{
+        display: unset;
+        position: unset;
+        background-color: transparent;
+        width: 100px;
+        height: 100px;
+        /* transition: 0.ms; */
+    }
+
+    .nav_menu{
+        position: fixed;
+        right: 0;
+        left: unset;
+        bottom: 0;
+        top: 16px;
+
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        
+        width: 300px;
+        height: 60px;
+        padding: 0;
+        text-decoration: none;
+    }
+    
+    .nav_item{
+        display: flex;
+        flex-direction: row;
+        gap: 16px;
+
+        color: var(--black);
+        text-decoration: none;
+    }
+    
+    .nav_link{
+        font-size: 15px;
+        line-height: 54px;
+        color: var(--black);
+    }
+    
+    .sobre_mi_container{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 32px;
+    }
+    
+    .img_sobre_mi{
+        display: flex;
+    
+        width: 100%;
+        height: 700px;
+        background-color: var(--red_2);
+    }
+
+    .sobre_mi_container--text{
+        width: 100%;
+        padding: 8px 16px 50px;
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        margin: 0 auto;
+    }
+    
+    .sobre_mi{
+        width: 100%;
+        max-width: 600px;
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    .cont_habil{
+        display: flex;
+        gap: 0px;
+    }
+
+    .sobre_mi{
+        border-bottom: 1px solid var(--black);
+        padding-bottom: 16px;
+    }
+
+    .contacto{
+        border-left: 1px solid var(--black);
+        padding-left: 24px;
+    }
+
+    .idiomas{
+        border-top: 1px solid var(--black);
+        padding-top: 8px;
+    }
+
+    .contacto_boton{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+        width: 320px;
+        height: 45px;
+    
+        background-color: var(--gris);
+        border-radius: 8px;
+    }
 }
