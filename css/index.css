@@ -43,9 +43,9 @@ h2{
 }
 
 h3{
-    font-size: 20px;
-    color: var(--black);
+    font-size: 24px;
     font-weight: 500;
+    padding: 0 0 12px 0;
 }
 
 p{
@@ -251,22 +251,10 @@ background-color: var(--white);
     padding-bottom: 12px;
 }
 
-.contacto h3{
-    font-size: 24px;
-    font-weight: 500;
-    padding: 0 0 12px 0;
-}
-
 .contacto a{
     display: flex;
     align-items: center;
     gap: 8px;
-}
-
-.idiomas h3{
-    font-size: 24px;
-    font-weight: 500;
-    padding: 0 0 12px 0;
 }
 
 .idiomas_p{
@@ -277,4 +265,94 @@ background-color: var(--white);
 .idiomas p>span{
     font-size: 16px;
     font-weight: 600;
+}
+
+.trabajos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+
+    width: 100%;
+    max-width: 1440px;
+}
+
+.proyecto_container{
+    width: 100%;
+    height: auto;
+
+    text-align: center;
+}
+
+.cards_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    width: 100%;
+    /* padding: 0 16px; */
+}
+
+.card{
+    width: 100%;
+    height: 300px;
+
+    text-align: center;
+}
+
+.img_card{
+    display: inline-block;
+    width: 100%;
+    min-height: 240px;
+    height: 240px;
+
+    background-color: var(--blue);
+}
+
+.card1{
+    background-image: url('https://i.ibb.co/6132tM0/social-media-post-obv-img.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.card2{
+    /* background-image: url('https://i.ibb.co/6132tM0/social-media-post-obv-img.png'); */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.card3{
+    /* background-image: url('https://i.ibb.co/6132tM0/social-media-post-obv-img.png'); */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.card4{
+    /* background-image: url('https://i.ibb.co/6132tM0/social-media-post-obv-img.png'); */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.card5{
+    /* background-image: url('https://i.ibb.co/6132tM0/social-media-post-obv-img.png'); */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.card6{
+    /* background-image: url('https://i.ibb.co/6132tM0/social-media-post-obv-img.png'); */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.titulo_card{
+    display: inline-block;
+    
+    font-size: 20px;
+    color: var(--black);
+    font-weight: 500;
+    line-height: 20px;
+
+    margin: 8px 0;
 }
