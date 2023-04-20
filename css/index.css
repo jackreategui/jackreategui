@@ -307,6 +307,12 @@ background-color: var(--white);
     height: 240px;
 
     background-color: var(--blue);
+
+    transition: .3s ease-out;
+}
+
+.img_card:hover{
+    scale: 1.05;
 }
 
 .card1{
