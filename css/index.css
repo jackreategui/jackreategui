@@ -394,6 +394,8 @@ background-color: var(--white);
 
     background-color: var(--red);
     color: var(--white);
+
+    transition: 0.3s ease-in-out;
 }
 
 .boton_trabajos:hover{
@@ -517,6 +519,10 @@ background-color: var(--white);
     
         background-color: var(--gris);
         border-radius: 8px;
+
+        outline: none;
+
+        transition: 0.3s ease-out;
     }
 }
 
