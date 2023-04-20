@@ -227,14 +227,19 @@ background-color: var(--white);
     flex-wrap: wrap;
     gap: 8px;
     padding: 14px 0;
+    
 }
 
 .icon_programas img{
-    width: 60px;
-    height: 60px;
+    padding: 5px;
+    width: 45px;
+    height: 45px;
 }
 
 .ul_habilidades{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
     margin: 0 0 0 8px;
     padding: 14px;
 }
