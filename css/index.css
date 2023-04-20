@@ -271,7 +271,7 @@ background-color: var(--white);
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 16px;
+    gap: 50px;
 
     width: 100%;
     max-width: 1440px;
@@ -348,11 +348,32 @@ background-color: var(--white);
 
 .titulo_card{
     display: inline-block;
-    
+
     font-size: 20px;
     color: var(--black);
     font-weight: 500;
     line-height: 20px;
 
     margin: 8px 0;
+}
+
+.boton_trabajos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 130px;
+    height: 40px;
+    margin: 0 auto;
+
+    background-color: var(--red);
+    color: var(--white);
+}
+
+.boton_trabajos:hover{
+    background-color: transparent;
+    border: 1px solid var(--red);
+    color: var(--black);
+
+    text-decoration: none;
 }
