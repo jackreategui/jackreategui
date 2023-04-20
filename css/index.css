@@ -377,3 +377,56 @@ background-color: var(--white);
 
     text-decoration: none;
 }
+
+.footer_container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    
+    width: 100%;
+    padding: 50px 0;
+}
+
+.img_footer{
+    width: 200px;
+    height: 200px;
+
+    background-color: var(--blue);
+
+    border-radius: 100%;
+}
+
+.footer_container h2{
+    text-align: center;
+
+    width: 80%;
+}
+
+.contacto_boton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 250px;
+    height: 40px;
+
+    background-color: var(--gris);
+    border-radius: 8px;
+}
+
+.contacto_boton:hover{
+    border: 1px solid var(--gris);
+    background-color: transparent;
+
+    text-decoration: none;
+}
+
+.container_links{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    
+    margin-bottom: 32px;
+}
