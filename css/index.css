@@ -155,6 +155,7 @@ background-color: var(--white);
     width: 100vw;
     height: 100vh;
     transition: 0.5s;
+    z-index: 100;
 }
 
 .nav_menu{
@@ -181,15 +182,23 @@ background-color: var(--white);
 .hero--foto{
     width: 100%;
     height: 100vh;
-    background-color: var(--blue);
     padding: 0 16px;
+    
+    background-image: url('../assets/img/foto_hero.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: var(--blue);
 }
 
 .hero--foto h1{
     position: relative;
     top: 450px;
     left: 10px;
+    z-index: 1;
     font-size: 32px;
+
+    color: var(--white);
 
     transition: 0.5s ease-in;
 }
@@ -211,6 +220,10 @@ background-color: var(--white);
 
     width: 100%;
     height: 600px;
+    background-image: url('../assets/img/foto_perfil_2.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     background-color: var(--red_2);
 }
 
