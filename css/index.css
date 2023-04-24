@@ -189,7 +189,7 @@ background-color: var(--white);
     height: 100vh;
     padding: 0 16px;
     
-    background-image: url('../assets/img/foto_hero.jpg');
+    background-image: url('https://i.ibb.co/ChVkSXC/foto-hero.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -363,25 +363,25 @@ background-color: var(--white);
     background-size: cover;
 }
 .card2{
-    /* background-image: url('https://i.ibb.co/6132tM0/social-media-post-obv-img.png'); */
+    background-image: url('https://i.ibb.co/2FdCMZq/logofolio-proyecto-cover.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 .card3{
-    /* background-image: url('https://i.ibb.co/6132tM0/social-media-post-obv-img.png'); */
+    background-image: url('https://i.ibb.co/SXmtQTP/social-media-viaje.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 .card4{
-    /* background-image: url('https://i.ibb.co/6132tM0/social-media-post-obv-img.png'); */
+    background-image: url('https://i.ibb.co/ZxN7Gdq/landing-page-proyecto-cover.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 .card5{
-    /* background-image: url('https://i.ibb.co/6132tM0/social-media-post-obv-img.png'); */
+    background-image: url('https://i.ibb.co/5Gq5Qf2/to-do-list-tasklift-cover.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -442,6 +442,10 @@ background-color: var(--white);
     height: 200px;
 
     background-color: var(--blue);
+    background-image: url('https://i.ibb.co/5kL3myK/foto-hero-v2.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 
     border-radius: 100%;
 }
