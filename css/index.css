@@ -404,8 +404,6 @@ input[type=number]::-webkit-outer-spin-button {
     margin: 0; 
 }
 
-input[type=number] { -moz-appearance:textfield; }
-
 .inputs_container textarea{
     background-color: var(--gris);
     width: 100%;
