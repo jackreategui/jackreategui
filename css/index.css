@@ -230,6 +230,11 @@ background-color: var(--white);
     transition: 0.5s ease-in;
 }
 
+main{
+    width: 100%;
+    background-color: var(--white);
+}
+
 .main_container{
     width: 100%;
     max-width: 1440px;
