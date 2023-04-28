@@ -195,7 +195,7 @@ background-color: var(--white);
 
     overflow: hidden;
 
-    background-color: var(--blue);
+    background-color: transparent;
 }
 
 .hero--foto{
