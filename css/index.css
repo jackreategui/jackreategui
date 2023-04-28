@@ -208,7 +208,7 @@ background-color: var(--white);
     z-index: -1;
     overflow: hidden;
     
-    background-image: url('https://i.ibb.co/ChVkSXC/foto-hero.jpg');
+    background-image: url('../assets/img/foto_hero.webp');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -383,37 +383,37 @@ main{
 }
 
 .card1{
-    background-image: url('https://i.ibb.co/ssRgVPV/revolver-brand.jpg');
+    background-image: url('../assets/img/revolver_brand.webp');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 .card2{
-    background-image: url('https://i.ibb.co/2FdCMZq/logofolio-proyecto-cover.jpg');
+    background-image: url('../assets/img/logofolio_proyecto_cover.webp');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 .card3{
-    background-image: url('https://i.ibb.co/SXmtQTP/social-media-viaje.jpg');
+    background-image: url('../assets/img/social_media_viaje.webp');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 .card4{
-    background-image: url('https://i.ibb.co/ZxN7Gdq/landing-page-proyecto-cover.jpg');
+    background-image: url('../assets/img/landing_page_proyecto_cover.webp');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 .card5{
-    background-image: url('https://i.ibb.co/5Gq5Qf2/to-do-list-tasklift-cover.jpg');
+    background-image: url('../assets/img/to_do_list-tasklift_cover.webp');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 .card6{
-    background-image: url('https://i.ibb.co/5WwRLBy/image.png');
+    background-image: url('../assets/img/conejo-perdido-cover.webp');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -472,7 +472,7 @@ footer{
     height: 200px;
 
     background-color: var(--blue);
-    background-image: url('https://i.ibb.co/5kL3myK/foto-hero-v2.jpg');
+    background-image: url('../assets/img/foto_hero_v2.webp');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
