@@ -11,3 +11,7 @@ window.onscroll = function () {
 document.getElementById('contacto_boton').addEventListener('click', function() {
     fbq('track', 'Contact');
 }, false);
+
+document.getElementById('nav_link_Contactar').addEventListener('click', function() {
+    fbq('track', 'Contact');
+}, false);
