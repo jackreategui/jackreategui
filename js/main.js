@@ -7,3 +7,7 @@ window.onscroll = function () {
 
     fotoHero.style.bottom = position * 0.1 + 'px';
 }
+
+document.getElementById('contacto_boton').addEventListener('click', function() {
+    fbq('track', 'Contact');
+}, false);
