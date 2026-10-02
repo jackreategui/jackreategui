@@ -9,7 +9,7 @@
 
 - 👨‍💻 I’m looking to collaborate on **FrontEnd development projects**
 
-- 📝 I upload content to my social networks on a regular basis [https://linktr.ee/jackreategui](https://linktr.ee/jackreategui)
+- 📝 I upload content to my social networks on a regular basis [https://beacons.ai/jackreategui](https://beacons.ai/jackreategui)
 
 - 📫 Contact me by email **jackreatteguivargas@gmail.com**
 
