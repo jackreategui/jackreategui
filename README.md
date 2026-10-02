@@ -13,7 +13,7 @@
 
 - 📫 Contact me by email **jackreatteguivargas@gmail.com**
 
-- 👅 Languages: Spanish - Native || English: A1
+- 👅 Languages: Spanish - Native || English: A2
 
 - 🏠 The country where I currently live is Peru
 
